@@ -5,7 +5,7 @@ import { styles } from "./styles";
 export function SegundaTela() {
   return (
     <View style={styles.container}>
-      <Image source={require("../../../gif-chest.gif")} style={styles.gif} />
+      <Image source={require("../../../gif-trunk.gif")} style={styles.gif} />
 
       <Text style={styles.premio}>Você ganhou 5 cristais!</Text>
 
