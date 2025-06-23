@@ -3,15 +3,14 @@ import { StyleSheet, Dimensions } from "react-native";
 const { width } = Dimensions.get("window");
 
 export const styles = StyleSheet.create({
-  safe: {
-    flex: 1,
+container: {
     backgroundColor: "#fff",
-  },
-  container: {
+    flex: 1,
+    justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 24,
     paddingTop: 40,
-    paddingBottom: 60,
+    paddingBottom: 40,
     gap: 12,
   },
   logo1: {
