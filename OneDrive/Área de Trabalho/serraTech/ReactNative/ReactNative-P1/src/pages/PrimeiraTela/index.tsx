@@ -17,7 +17,6 @@ export function PrimeiraTela() {
         <Image source={require("../../../user-icon.png")} style={styles.icon} />
         <TextInput
           placeholder="Username"
-          placeholderTextColor="#aaa"
           style={styles.input}
         />
       </View>
